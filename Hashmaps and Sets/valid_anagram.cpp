@@ -21,7 +21,7 @@ This problem was fairly simple but it took me a second to come up with a solutio
 that would not have a high time complexity. However, I'm sure it could still be
 improved.
 
-Runtime: 16 ms, faster than 59.23% of C++ online submissions for Valid Anagram.
-Memory Usage: 9.5 MB, less than 28.11% of C++ online submissions for Valid Anagram.
+Runtime: 12 ms, faster than 89.34% of C++ online submissions for Valid Anagram.
+Memory Usage: 9.6 MB, less than 18.89% of C++ online submissions for Valid Anagram.
 
 */

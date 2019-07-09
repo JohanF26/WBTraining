@@ -4,8 +4,8 @@ public:
         map<char, int> mymap;
         if(s.size() != t.size()) return false;
         for(int i = 0; i < s.size(); i++){
-            mymap[s[i]]++;
-            mymap[t[i]]--;
+            mymap[s[i]]++; //count every letter in s in the map
+            mymap[t[i]]--; //subtract every letter in t from the map
         }
         for(auto it = mymap.begin(); it != mymap.end(); it++){
             if(it->second != 0) return false;
